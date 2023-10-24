@@ -1,26 +1,1022 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="center">
-        <p style="text-align:center;">Under construction</p>
-        <img src="3.jpg" alt="">
-        <p style="text-align:center;">I don't know.</p>
-      </div>
-</body>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+   
+    <!-- Meta Tags -->
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      name="viewport"
+    />
+    <!-- Author -->
+    <meta name="author" content="The real dev" />
 
+    <title>IDK.</title>
+    <meta name="title" content="IDK." />
+    <meta name="description" content="This project is about - I don't know." />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://idkidkidk.com" />
+    <meta property="og:title" content="IDK." />
+    <meta property="og:description" content="This project is about - I don't know." />
+    <meta property="og:image" content="https://idkidkidk.com/assets/banner.jpg" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://idkidkidk.com/" />
+    <meta property="twitter:title" content="IDK." />
+    <meta property="twitter:description" content="This project is about - I don't know." />
+    <meta property="twitter:image" content="https://idkidkidk.com/assets/banner.jpg" />
+
+
+    <!-- Favicon -->
+    <link
+      href="assets/favicon.ico"
+      rel="icon"
+    />
+    <!-- Bundle -->
+    <link rel="stylesheet" href="assets/bundle.min.css" />
+    <!-- Revolution Slider CSS Files -->
+    <link rel="stylesheet" href="assets/revolution-settings.min.css" />
+    <!-- Plugin Css -->
+    <link href="assets/lineIcons.min.css" rel="stylesheet" />
+    <link href="assets/jquery.fancybox.min.css" rel="stylesheet" />
+    <link href="assets/owl.carousel.min.css" rel="stylesheet" />
+    <link href="assets/wow.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/cubeportfolio.min.css" />
+    <link href="assets/line-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/font-awesome.min.css">
+
+    <!-- Style Sheet -->
+    <link href="assets/style.css" rel="stylesheet" />
+    <link href="assets/custom.css" rel="stylesheet" />
+
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="assets/common.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="assets/util.js"
+    ></script>
+    <script type="text/javascript" charset="UTF-8" src="assets/log.js"></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="assets/map_002.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="assets/marker.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="assets/onion.js"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="assets/AuthenticationService.js"
+    ></script>
+    <script type="text/javascript" charset="UTF-8" src="assets/vt.js"></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="assets/QuotaService"
+    ></script>
+    <script
+      type="text/javascript"
+      charset="UTF-8"
+      src="assets/controls.js"
+    ></script>
+  </head>
 <style>
 
-.center {
-    border: 5px solid;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px;
-  }</style>
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 5s linear infinite;
+  -moz-animation: rotating 5s linear infinite;
+  -ms-animation: rotating 5s linear infinite;
+  -o-animation: rotating 5s linear infinite;
+  animation: rotating 5s linear infinite;
+}
+
+</style>
+  <body data-spy="scroll" data-target=".navbar" data-offset="90">
+    <!-- Start Header -->
+    <header class="">
+      <!--Navigation-->
+      <nav
+        class="navbar navbar-top-default navbar-expand-lg navbar-simple nav-line"
+      >
+        <div class="container">
+          <a
+            href="/"
+            title="Logo"
+            class="logo"
+          >
+            <!--Logo Default-->
+            <img
+              src="assets/logo-white.png"
+              title="logo"
+              alt="logo"
+              class="logo-default rotating"
+            />
+          </a>
+
+          <!--Nav Links-->
+          <div class="collapse navbar-collapse" id="megaone">
+            <div class="navbar-nav ml-auto">
+              <a class="nav-link scroll line active" href="#slider">Home</a>
+              <a class="nav-link scroll line" href="#about">About Us</a>
+              <a class="nav-link scroll line" href="#mod">MOD</a>
+            </div>
+          </div>
+        </div>
+
+        <!--Side Menu Button-->
+        <div class="navigation-toggle">
+          <ul class="slider-social toggle-btn my-0">
+            <li>
+              <a
+                href="javascript:void(0);"
+                class="sidemenu_btn"
+                id="sidemenu_toggle"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!--Side Nav-->
+      <div class="side-menu">
+        <div class="inner-wrapper">
+          <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+          <a
+            href="/"
+            title="Logo"
+            class="logo side-logo"
+          >
+            <!--Logo Default-->
+            <img src="assets/logo-white.png" alt="logo" />
+          </a>
+          <nav class="side-nav w-100">
+            <ul class="navbar-nav side-navbar">
+              <li class="nav-link scroll" >
+               Do you know <br />what you're doing?
+              </li>
+            </ul>
+          </nav>
+
+          <div class="side-footer w-100">
+            
+            <p>© 2023 IDK</p>
+          </div>
+        </div>
+      </div>
+      <a id="close_side_menu" href="javascript:void(0);"></a>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Slider -->
+    <section class="slider position-relative" id="slider">
+      <div class="row">
+        <div class="col-12">
+          <div id="sync1" class="owl-carousel owl-theme owl-loaded owl-drag">
+            <!-- Item-1 -->
+
+            <!-- Item-2 -->
+
+            <!-- Item-3 -->
+
+            <!-- Item-4 -->
+
+            <div class="owl-stage-outer">
+              <div
+                class="owl-stage"
+                style="
+                  transform: translate3d(-2900px, 0px, 0px);
+                  transition: all 0s ease 0s;
+                  width: 11600px;
+                "
+              >
+                <div class="owl-item" style="width: 1450px">
+                  <div class="item">
+                    <img src="assets/slider-img-3.jpg" alt="Slider-Image" />
+                  </div>
+                </div>
+                
+                <div class="owl-item" style="width: 1450px">
+                  <div class="item">
+                    <img src="assets/slider-img-1.jpg" alt="Slider-Image" />
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 1450px">
+                  <div class="item">
+                    <img src="assets/slider-img-2.jpg" alt="Slider-Image" />
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-nav disabled" style="display:none !important;">
+              <button type="button" role="presentation" class="owl-prev">
+                <span aria-label="Previous">‹</span></button
+              ><button type="button" role="presentation" class="owl-next">
+                <span aria-label="Next">›</span>
+              </button>
+            </div>
+            <div class="owl-dots disabled"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Slider -->
+
+    <!-- Some Services -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div
+            id="sync2"
+            class="owl-carousel owl-theme services-slider wow fadeInUp owl-loaded owl-drag"
+            data-wow-duration="1s"
+            data-wow-delay="1.5s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 1.5s;
+              animation-name: fadeInUp;
+            "
+          >
+            <!-- Item-1 -->
+
+            <!-- Item-2 -->
+
+            <!-- Item-3 -->
+
+            <!-- Item-4 -->
+
+            <div class="owl-stage-outer">
+              <div
+                class="owl-stage"
+                style="
+                  transform: translate3d(0px, 0px, 0px);
+                  transition: all 0s ease 0s;
+                  width: 1480px;
+                "
+              >
+                <div class="owl-item active" style="width: 370px">
+                  <div class="item">
+                    <div class="service-box">
+                      <span>I</span>
+                      <h4 class="my-3">Launch</h4>
+                      <p>
+                        24/10 <br /> 22:00 UTC
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item active current" style="width: 370px">
+                  <div class="item">
+                    <div class="service-box">
+                      <span>D</span>
+                      <h4 class="my-3">Wen Marketing</h4>
+                      <p>
+                        IDK.
+                      </p>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item active" style="width: 370px">
+                  <div class="item">
+                    <div class="service-box">
+                      <span>K</span>
+                      <h4 class="my-3">Dev</h4>
+                      <p>
+                        IDK.
+                      </p>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="owl-nav disabled">
+              <button type="button" role="presentation" class="owl-prev">
+                <span aria-label="Previous">‹</span></button
+              ><button type="button" role="presentation" class="owl-next">
+                <span aria-label="Next">›</span>
+              </button>
+            </div>
+            <div class="owl-dots disabled"></div>
+          </div>
+        </div>
+      </div>
+      <div class="service-image">
+        <img src="assets/service.jpg" alt="Service" />
+      </div>
+    </div>
+    <!-- Some Services -->
+
+    <!-- Start About -->
+    <section class="about" id="about">
+      <div class="container">
+        <!--Heading-->
+        <div class="row text-center">
+          <div
+            class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 heading-area"
+            data-wow-duration="1s"
+            data-wow-delay=".1s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.1s;
+              animation-name: zoomIn;
+            "
+          >
+            <h3 class="heading text-center wow fadeIn ">
+              Reasons to buy.
+             
+            </h3>
+            <p class="text text-center">
+             Who are we fooling. We all know you're here for the money.
+            </p>
+          </div>
+        </div>
+        <!-- App Detail -->
+        <div class="row align-items-center">
+          <div
+            class="col-lg-5 wow fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay=".5s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.5s;
+              animation-name: fadeInLeft;
+            "
+          >
+            <!-- Service-1 -->
+            <div class="row app-feature equal-margin">
+              <div class="col-12 col-lg-3 p-lg-0">
+                <h5 class="number">01.</h5>
+              </div>
+              <div class="col-12 col-lg-9 p-lg-0">
+                <h4 class="my-3">I don't know.</h4>
+                <p>
+
+                </p>
+              </div>
+            </div>
+            <!-- Service-3-->
+            <div class="row app-feature equal-margin">
+              <div class="col-12 col-lg-3 p-lg-0">
+                <h5 class="number">03.</h5>
+              </div>
+              <div class="col-12 col-lg-9 p-lg-0">
+                <h4 class="my-3">I don't know.</h4>
+                <p>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-2 wow fadeInUp"
+            data-wow-duration="1s"
+            data-wow-delay="1s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 1s;
+              animation-name: fadeInUp;
+            "
+          ></div>
+
+          <div
+            class="col-lg-5 wow fadeInRight"
+            data-wow-duration="1s"
+            data-wow-delay=".5s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.5s;
+              animation-name: fadeInRight;
+            "
+          >
+            <!-- Service-2 -->
+            <div class="row app-feature equal-margin">
+              <div class="col-12 col-lg-3 p-lg-0">
+                <h5 class="number">02.</h5>
+              </div>
+              <div class="col-12 col-lg-9 p-lg-0">
+                <h4 class="my-3">I don't know.</h4>
+                <p>
+
+                </p>
+              </div>
+            </div>
+            <!-- Service-4 -->
+            <div class="row app-feature equal-margin">
+              <div class="col-12 col-lg-3 p-lg-0">
+                <h5 class="number">04.</h5>
+              </div>
+              <div class="col-12 col-lg-9 p-lg-0">
+                <h4 class="my-3">Maybe I do.</h4>
+                <p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Quote Btn -->
+        <div class="row text-center">
+          <div
+            class="col-12 wow slideInUp"
+            data-wow-duration="1s"
+            data-wow-delay=".5s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.5s;
+              animation-name: slideInUp;
+            "
+          >
+            <div class="quote-btn">
+              <p>Let's</p>
+              <h4>Fill your bag!</h4>
+              <a
+                href="https://uniswap.org/"
+                target="_blank"
+                class="btn btn-medium btn-rounded btn-green"
+                >Purchase token</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Start Counters -->
+    <section id="counters" class="bg-counters">
+      <div class="container">
+        <div class="row align-items-center text-center">
+          <div class="col-lg-4 col-md-4">
+            <div class="counters">
+              <h2 class="count">365</h2> days
+              <h4>Liquidity Lock</h4>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 py-5 py-md-0">
+            <p class="center-para">
+                We don't know what we're doing,<br/> but we're doing it. 
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 bottom10">
+            <div class="counters">
+              <h2 class="count">42069</h2>
+              <h4>Unlimited potential</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Counters -->
+
+    <!-- Start Portfolio -->
+    <section id="portfolio" class="cube-portfolio1 padding-top">
+      <div class="container">
+        <!--Heading-->
+        <div class="row text-center">
+          <div
+            class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 wow zoomIn heading-area"
+            data-wow-duration="1s"
+            data-wow-delay=".1s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.1s;
+              animation-name: zoomIn;
+            "
+          >
+
+            <h3 class="heading text-center">
+              We 
+              <span class="text-green js-rotating morphext"
+                ><span class="flipInX">develop</span></span
+              >
+              for some <span class="d-block"> reason.</span>
+            </h3>
+            <p class="text text-center">
+              IDK.
+            </p>
+          </div>
+        </div>
+
+        
+      </div>
+    </section>
+    <!-- End Portfolio -->
+
+    <!-- Start Booking Area -->
+    <section class="booking-area">
+      <!-- Quote Btn -->
+      <div class="row text-center">
+        <div class="col-12">
+          <div class="quote-btn">
+            <h4>Join the community!</h4>
+            <a
+              href="https://t.me"
+              target="_blank"
+              class="scroll btn btn-medium btn-rounded btn-white"
+              >Telegram</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Booking Area -->
+
+    <!-- Start Testimonials -->
+    <section class="our-clients" id="mod">
+      <div class="container">
+        <div
+          class="row wow fadeInUp"
+          data-wow-duration="1.5s"
+          style="
+            visibility: visible;
+            animation-duration: 1.5s;
+            animation-name: fadeInUp;
+          "
+        >
+          <div class="col-12 text-center">
+            <div class="heading-area">
+              <span class="sub-heading mb-2"></span>
+              <h4 class="heading main-font">
+                MEMES of the DAY
+                <span class="d-block"></span>
+              </h4>
+            </div>
+          </div>
+          <div
+            class="testimonial-owl owl-testimonial owl-carousel owl-theme owl-loaded owl-drag"
+          >
+
+
+            <div class="owl-stage-outer">
+              <div
+                class="owl-stage"
+                style="
+                  transition: all 0s ease 0s;
+                  width: 3800px;
+                  transform: translate3d(-760px, 0px, 0px);
+                "
+              >
+                <div class="owl-item cloned" style="width: 380px">
+                  <div class="item">
+                    <div class="testimonial-box">
+                      <div class="quote_box">
+
+                      </div>
+                      <p class="text info infot_margin">
+                        <img src="1.jpg" alt="">
+                      </p>
+                      <div class="testimonial_img">
+                        
+                      </div>
+                      <div class="text1">
+                        <p class="testimonial_name"></p>
+                        <p class="info text-red"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item cloned" style="width: 380px">
+                  <div class="item">
+                    <div class="testimonial-box">
+                      <div class="quote_box">
+
+                      </div>
+                      <p class="text info infot_margin">
+                        <img src="1.jpg" alt="">
+                      </p>
+
+                      <div class="testimonial_img">
+                       
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item cloned active" style="width: 380px">
+                  <div class="item">
+                    <div class="testimonial-box">
+                      <div class="quote_box">
+                        
+                      </div>
+                      <p class="info infot_margin">
+                        <img src="1.jpg" alt="">
+                      </p>
+                      <div class="testimonial_img">
+                       
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item active center" style="width: 380px">
+                  <div class="item">
+                    <div class="testimonial-box">
+                      <div class="quote_box">
+                        
+                      </div>
+                      <p class="info infot_margin text">
+                        <img src="2.jpg" alt="">
+                      </p>
+
+                      <div class="testimonial_img">
+                        
+                      </div>
+                      <div class="text1">
+                        <p class="testimonial_name"></p>
+                        <p class="info text-red"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item active" style="width: 380px">
+                  <div class="item">
+                    <div class="testimonial-box">
+                      <div class="quote_box">
+                        
+                      </div>
+                      <p class="text info infot_margin">
+                        <img src="3.jpg" alt="">
+                      </p>
+                      <div class="testimonial_img">
+                        
+                      </div>
+                      <div class="text1">
+                        <p class="testimonial_name"></p>
+                        <p class="info text-red"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 380px">
+                  <div class="item">
+                    <div class="testimonial-box">
+                      <div class="quote_box">
+                        
+                      </div>
+                      <p class="text info infot_margin">
+                        <img src="4.jpg" alt="">
+                      </p>
+
+                      <div class="testimonial_img">
+                        
+                      </div>
+                      <div class="text1">
+                        <p class="testimonial_name"></p>
+                        <p class="info text-red"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item" style="width: 380px">
+                  <div class="item">
+                    <div class="testimonial-box">
+                      <div class="quote_box">
+                        
+                      </div>
+                      <p class="info infot_margin">
+                        <img src="5.jpg" alt="">
+                      </p>
+                      <div class="testimonial_img">
+                       
+                      </div>
+                      <div class="text1">
+                        <p class="testimonial_name"></p>
+                        <p class="info text-red"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item cloned" style="width: 380px">
+                  <div class="item">
+                    <div class="testimonial-box">
+                      <div class="quote_box">
+                        
+                      </div>
+                      <p class="info infot_margin text">
+                        <img src="1.jpg" alt="">
+                      </p>
+
+                      <div class="testimonial_img">
+                        
+                      </div>
+                      <div class="text1">
+                        <p class="testimonial_name"></p>
+                        <p class="info text-red"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item cloned" style="width: 380px">
+                  <div class="item">
+                    <div class="testimonial-box">
+                      <div class="quote_box">
+                        
+                      </div>
+                      <p class="text info infot_margin">
+                        <img src="1.jpg" alt="">
+                      </p>
+                      <div class="testimonial_img">
+                        
+                      </div>
+                      <div class="text1">
+                        <p class="testimonial_name"></p>
+                        <p class="info text-red"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="owl-item cloned" style="width: 380px">
+                  <div class="item">
+                    <div class="testimonial-box">
+                      <div class="quote_box">
+                        
+                      </div>
+                      <p class="text info infot_margin">
+                        <img src="1.jpg" alt="">
+                      </p>
+
+                      <div class="testimonial_img">
+                       
+                      </div>
+                      <div class="text1">
+                        <p class="testimonial_name"></p>
+                        <p class="info text-red"></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="owl-nav disabled">
+              <button type="button" role="presentation" class="owl-prev">
+                <span aria-label="Previous">‹</span></button
+              ><button type="button" role="presentation" class="owl-next">
+                <span aria-label="Next">›</span>
+              </button>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials -->
+
+    <!-- Start Client -->
+    <section class="bg-light-black" id="client">
+      <h2 class="d-none">hidden</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!--Client Slider-->
+            <div class="owl-carousel partners-slider owl-loaded owl-drag">
+              <!--Item-->
+
+              <!--Item-->
+
+              <!--Item-->
+
+              <!--Item-->
+
+              <div class="owl-stage-outer">
+                <div
+                  class="owl-stage"
+                  style="
+                    transform: translate3d(-1140px, 0px, 0px);
+                    transition: all 1.5s ease 0s;
+                    width: 3420px;
+                  "
+                >
+                  <div
+                    class="owl-item cloned"
+                    style="width: 255px; margin-right: 30px"
+                  >
+                    <div class="logo-item">
+                      <img alt="client-logo" src="assets/client-1.png" />
+                    </div>
+                  </div>
+                  <div
+                    class="owl-item cloned"
+                    style="width: 255px; margin-right: 30px"
+                  >
+                    <div class="logo-item">
+                      <img alt="client-logo" src="assets/client-1.png" />
+                    </div>
+                  </div>
+                  <div
+                    class="owl-item cloned"
+                    style="width: 255px; margin-right: 30px"
+                  >
+                    <div class="logo-item">
+                      <img alt="client-logo" src="assets/client-1.png" />
+                    </div>
+                  </div>
+                  <div
+                    class="owl-item cloned"
+                    style="width: 255px; margin-right: 30px"
+                  >
+                    <div class="logo-item">
+                      <img alt="client-logo" src="assets/client-1.png" />
+                    </div>
+                  </div>
+                  <div
+                    class="owl-item active"
+                    style="width: 255px; margin-right: 30px"
+                  >
+                    <div class="logo-item">
+                      <img alt="client-logo" src="assets/client-1.png" />
+                    </div>
+                  </div>
+                  <div
+                    class="owl-item active"
+                    style="width: 255px; margin-right: 30px"
+                  >
+                    <div class="logo-item">
+                      <img alt="client-logo" src="assets/client-1.png" />
+                    </div>
+                  </div>
+                  <div
+                    class="owl-item active"
+                    style="width: 255px; margin-right: 30px"
+                  >
+                    <div class="logo-item">
+                      <img alt="client-logo" src="assets/client-1.png" />
+                    </div>
+                  </div>
+                  <div
+                    class="owl-item active"
+                    style="width: 255px; margin-right: 30px"
+                  >
+                    <div class="logo-item">
+                      <img alt="client-logo" src="assets/client-1.png" />
+                    </div>
+                  </div>
+                  <div
+                    class="owl-item cloned"
+                    style="width: 255px; margin-right: 30px"
+                  >
+                    <div class="logo-item">
+                      <img alt="client-logo" src="assets/client-1.png" />
+                    </div>
+                  </div>
+                  <div
+                    class="owl-item cloned"
+                    style="width: 255px; margin-right: 30px"
+                  >
+                    <div class="logo-item">
+                      <img alt="client-logo" src="assets/client-1.png" />
+                    </div>
+                  </div>
+                  <div
+                    class="owl-item cloned"
+                    style="width: 255px; margin-right: 30px"
+                  >
+                    <div class="logo-item">
+                      <img alt="client-logo" src="assets/client-1.png" />
+                    </div>
+                  </div>
+                  <div
+                    class="owl-item cloned"
+                    style="width: 255px; margin-right: 30px"
+                  >
+                    <div class="logo-item">
+                      <img alt="client-logo" src="assets/client-.png" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="owl-nav disabled">
+                <button type="button" role="presentation" class="owl-prev">
+                  <span aria-label="Previous">‹</span></button
+                ><button type="button" role="presentation" class="owl-next">
+                  <span aria-label="Next">›</span>
+                </button>
+              </div>
+              <div class="owl-dots disabled"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Client End -->
+
+    <!-- Start Map -->
+    <!-- <div class="p-0 bg-light-#010101 map-area">
+      <div class="container">
+        
+      </div>
+    </div> -->
+    <!-- End Map -->
+
+    <!-- Start Contact -->
+   
+    <div class="contact-dots" data-dots="">
+      <canvas width="980" height="860"></canvas>
+    </div>
+    <!--Contact End-->
+
+    <!-- Start Footer -->
+    <footer class="footer-style-1 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <!--Social-->
+          <div class="col-md-6">
+            <div class="footer-social">
+              <ul class="list-unstyled">
+                <li>
+                  <a
+                    class="wow fadeInUp"
+                    href="javascript:void(0);"
+                    style="visibility: visible; animation-name: fadeInUp"
+                    >TG</a>
+                </li>
+                <li>
+                    <a
+                      class="wow fadeInUp"
+                      href="javascript:void(0);"
+                      style="visibility: visible; animation-name: fadeInUp"
+                      >X</a>
+                  </li>
+                
+              </ul>
+            </div>
+          </div>
+          <!--Text-->
+          <div class="col-md-6 text-md-right">
+            <p class="company-about fadeIn pr-0 pr-md-1">
+              © 2023 IDK.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- JavaScript -->
+    <script src="assets/bundle.min.js"></script>
+    <!-- Plugin Js -->
+    <script src="assets/morphext.min.js"></script>
+    <script src="assets/jquery.appear.js"></script>
+    <script src="assets/jquery.fancybox.min.js"></script>
+    <script src="assets/owl.carousel.min.js"></script>
+    <script src="assets/wow.min.js"></script>
+    <script src="assets/jquery.cubeportfolio.min.js"></script>
+    <!-- Map JS -->
+    <script src="assets/js.js"></script>
+    <script src="assets/map.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="assets/contact_us.js"></script>
+    <script src="assets/script.js"></script>
+  </body>
 </html>
